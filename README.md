@@ -2,6 +2,12 @@
 
 A comprehensive data science platform that combines AI-powered natural language queries with advanced statistical analysis, machine learning predictions, and interactive visualizations. Built with Streamlit for the analytics engine and a modern Next.js frontend designed with Lovable for an intuitive user experience.
 
+## 🌐 Live Demo
+
+**Access the deployed website:** [https://insforge.lovable.app/](https://insforge.lovable.app/)
+
+Try it out! Upload your data, ask questions, and get AI-powered insights instantly.
+
 ## 🎯 What This Project Does
 
 InsightForge is an intelligent data analytics platform that transforms raw data into actionable insights through:
