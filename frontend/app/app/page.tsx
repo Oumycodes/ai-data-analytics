@@ -9,7 +9,7 @@ export default function StreamlitApp() {
   const [isLoading, setIsLoading] = useState(true)
   const [streamlitAvailable, setStreamlitAvailable] = useState(false)
   const [showDirectLink, setShowDirectLink] = useState(false)
-  const streamlitUrl = 'http://localhost:8501'
+  const streamlitUrl = process.env.NEXT_PUBLIC_STREAMLIT_URL || 'http://localhost:8501'
 
   useEffect(() => {
     // Check if Streamlit is running
